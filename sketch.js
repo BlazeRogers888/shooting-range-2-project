@@ -106,7 +106,7 @@ function drawredBubble(){
 
 function shootBullet(){
   bullet= createSprite(150, width/2, 50,20)
-  playSound("gunshot.mp3")
+  
   bullet.y= gun.y-20
   bullet.addImage(bulletImg)
   bullet.scale=0.12
